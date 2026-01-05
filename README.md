@@ -29,10 +29,10 @@ DSA_with_LeetCode/
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy       | 0      | 742   |
+| Easy       | 2      | 742   |
 | Medium     | 0      | 1548  |
 | Hard       | 0      | 639   |
-| **Total**  | **0**  | **2929** |
+| **Total**  | **2**  | **2929** |
 
 *Last Updated: January 4, 2026*
 
