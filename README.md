@@ -29,12 +29,12 @@ DSA_with_LeetCode/
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy       | 2      | 742   |
+| Easy       | 5      | 742   |
 | Medium     | 0      | 1548  |
 | Hard       | 0      | 639   |
-| **Total**  | **2**  | **2929** |
+| **Total**  | **5**  | **2929** |
 
-*Last Updated: January 4, 2026*
+*Last Updated: January 8, 2026*
 
 ## 🔍 Problem Categories
 
@@ -56,7 +56,7 @@ DSA_with_LeetCode/
 
 Each solution includes:
 - **Problem Statement**: Link to the original LeetCode problem
-- **Difficulty Level**: Easy, Medium, or Hard
+- **Difficulty Level**: Easy, Medium or Hard
 - **Topics/Tags**: Related algorithms and data structures
 - **Solution Code**: Clean, well-commented implementation
 - **Time Complexity**: Big O notation for time
@@ -71,7 +71,7 @@ Each solution includes:
 
 ## 🛠️ Technologies & Languages
 
-- **Primary Language**: Python / Java / C++ / JavaScript *(update as needed)*
+- **Primary Language**: Java
 - **IDE**: VS Code
 - **Version Control**: Git & GitHub
 
@@ -92,9 +92,9 @@ This is a personal learning repository, but suggestions and improvements are alw
 
 ## 📫 Connect With Me
 
-- **LeetCode Profile**: [Your Profile](https://leetcode.com/yourusername)
+- **LeetCode Profile**: [Subhadip099](https://leetcode.com/u/Subhadip099/)
 - **GitHub**: [@Subhadipjana95](https://github.com/Subhadipjana95)
-- **LinkedIn**: [Your Name](https://linkedin.com/in/yourprofile)
+- **LinkedIn**: [Subhadip Jana](www.linkedin.com/in/subhadipjana095)
 
 ## 📄 License
 
