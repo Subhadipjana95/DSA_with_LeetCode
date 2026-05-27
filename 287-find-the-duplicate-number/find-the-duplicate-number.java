@@ -4,7 +4,7 @@ class Solution {
 
         // Frequency Map  
         for(int val: nums){
-            freq.put(val, freq.getOrDefault(val, 0)+1);
+            freq.put(val, freq.getOrDefault(val, 0) + 1);
         }
 
         // Iterate Freq corresponding to nums to find the frequency
