@@ -1,0 +1,1 @@
+<h2>peak-index-in-a-mountain-array Notes</h2><hr>[ Time taken: 2hrs 52m 57s ]
