@@ -1,33 +1,19 @@
 class Solution {
     public int mySqrt(int x) {
-        if(x < 2) return x;
-
-        int left = 1;
-        int right = x;
+        int start = 1;
+        int end = x;
         int ans = 0;
-
-        while(left <= right){
-            int mid = left + (right - left)/2;
-
-            if((long)mid*mid == x){
+        while (start <= end) {
+            int mid = start + (end - start) / 2;
+            if (mid == x/mid) { // To avoid integer value outOfBound exception use (mid = x/mid) instead of (mid*mid = x)
                 return mid;
-            }
-            else if((long)mid*mid < x){
+            } else if (mid > x/mid) {
+                end = mid - 1;
+            } else {
                 ans = mid;
-                left = mid+1;
-            }
-            else{
-                right = mid-1;
+                start = mid + 1;
             }
         }
         return ans;
-    }
-    static {
-        Runtime.getRuntime().addShutdownHook(new Thread(() -> {
-            try (java.io.FileWriter fw = new java.io.FileWriter("display_runtime.txt")) {
-                fw.write("0");
-            } catch (Exception e) {
-        }
-        }));
     }
 }
