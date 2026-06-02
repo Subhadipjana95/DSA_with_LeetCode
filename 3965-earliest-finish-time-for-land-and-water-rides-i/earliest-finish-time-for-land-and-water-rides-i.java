@@ -2,31 +2,28 @@ class Solution {
     public int earliestFinishTime(int[] landStartTime, int[] landDuration, int[] waterStartTime, int[] waterDuration) {
         int n = landStartTime.length;
         int m = waterStartTime.length;
-        int minTime = Integer.MAX_VALUE;
+        int ans = Integer.MAX_VALUE;
 
-        int landFirstTime = Integer.MAX_VALUE;
+        // Land -> Water
         for (int i = 0; i < n; i++) {
-            int landTime = landStartTime[i] + landDuration[i];
+            int landFinish = landStartTime[i] + landDuration[i];
             for (int j = 0; j < m; j++) {
-                int landFinish = Math.max(landTime, waterStartTime[j]);
-                int landAfterWaterTime = landFinish + waterDuration[j];
-                if (landAfterWaterTime < landFirstTime) {
-                    landFirstTime = landAfterWaterTime;
-                }
+                int waterStart = Math.max(landFinish, waterStartTime[j]);
+                int waterFinish = waterStart + waterDuration[j];
+                ans = Math.min(ans, waterFinish);
             }
         }
 
-        int waterFirstTime = Integer.MAX_VALUE;
+        // Water -> Land
         for (int i = 0; i < m; i++) {
-            int waterTime = waterStartTime[i] + waterDuration[i];
+            int waterFinish= waterStartTime[i] + waterDuration[i];
             for (int j = 0; j < n; j++) {
-                int waterFinish = Math.max(waterTime, landStartTime[j]);
-                int waterAfterLandTime = waterFinish + landDuration[j];
-                if (waterAfterLandTime < waterFirstTime) {
-                    waterFirstTime = waterAfterLandTime;
-                }
+                int landStart = Math.max(waterFinish, landStartTime[j]);
+                int landFinish = landStart + landDuration[j];
+                ans = Math.min(ans, landFinish);
             }
         }
-        return landFirstTime < waterFirstTime ? landFirstTime : waterFirstTime;
+
+        return ans;
     }
 }
