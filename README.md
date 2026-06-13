@@ -2,7 +2,7 @@
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Subhadipjana95/DSA_with_LeetCode?style=for-the-badge)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-0-brightgreen?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-54-brightgreen?style=for-the-badge)
 
 ## 📋 About
 
@@ -12,16 +12,17 @@ This repository contains my solutions to various LeetCode problems, organized sy
 
 ```
 DSA_with_LeetCode/
-├── Easy/
-├── Medium/
-├── Hard/
-├── Topics/
-│   ├── Arrays/
-│   ├── Strings/
-│   ├── Linked Lists/
-│   ├── Trees/
-│   ├── Dynamic Programming/
+├── 1-two-sum/
+│   ├── two-sum.java
+│   └── README.md
+├── 2-add-two-numbers/
+│   ├── add-two-numbers.java
+│   └── README.md
+├── 3-longest-substring-without-repeating-characters/
 │   └── ...
+├── {problem-number}-{problem-name}/
+│   ├── {problem-name}.java   (or .sql for DB problems)
+│   └── README.md
 └── README.md
 ```
 
@@ -29,12 +30,12 @@ DSA_with_LeetCode/
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy       | 5      | 742   |
-| Medium     | 0      | 1548  |
-| Hard       | 0      | 639   |
-| **Total**  | **5**  | **2929** |
+| Easy       | 39     | 742   |
+| Medium     | 14     | 1548  |
+| Hard       | 1      | 639   |
+| **Total**  | **54** | **2929** |
 
-*Last Updated: January 8, 2026*
+*Last Updated: June 2025*
 
 ## 🔍 Problem Categories
 
@@ -65,14 +66,14 @@ Each solution includes:
 
 ## 💡 How to Use This Repository
 
-1. **Browse by Difficulty**: Navigate to `Easy/`, `Medium/`, or `Hard/` folders
-2. **Search by Topic**: Look into the `Topics/` directory for specific algorithm categories
-3. **Problem Number**: Files are named with problem numbers for easy searching (e.g., `0001-two-sum.py`)
+1. **Browse by Problem Number**: Each problem has its own folder named `{number}-{problem-name}` (e.g., `1-two-sum/`)
+2. **Find a Problem**: Folders are sorted numerically, making it easy to locate any problem by its LeetCode number
+3. **Solution Files**: Each folder contains a `README.md` with the problem statement and a `.java` (or `.sql`) solution file
 
 ## 🛠️ Technologies & Languages
 
 - **Primary Language**: Java
-- **IDE**: VS Code
+- **Platform**: Leet Code
 - **Version Control**: Git & GitHub
 
 ## 📈 Learning Goals
