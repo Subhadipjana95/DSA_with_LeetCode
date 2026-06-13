@@ -2,7 +2,7 @@
 
 ![LeetCode](https://img.shields.io/badge/LeetCode-Solutions-FFA116?style=for-the-badge&logo=leetcode&logoColor=white)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Subhadipjana95/DSA_with_LeetCode?style=for-the-badge)
-![Problems Solved](https://img.shields.io/badge/Problems%20Solved-54-brightgreen?style=for-the-badge)
+![Problems Solved](https://img.shields.io/badge/Problems%20Solved-58-brightgreen?style=for-the-badge)
 
 ## 📋 About
 
@@ -30,10 +30,10 @@ DSA_with_LeetCode/
 
 | Difficulty | Solved | Total |
 |------------|--------|-------|
-| Easy       | 39     | 742   |
+| Easy       | 43     | 742   |
 | Medium     | 14     | 1548  |
 | Hard       | 1      | 639   |
-| **Total**  | **54** | **2929** |
+| **Total**  | **58** | **2929** |
 
 *Last Updated: June 2025*
 
