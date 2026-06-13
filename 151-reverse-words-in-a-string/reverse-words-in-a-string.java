@@ -1,14 +1,15 @@
 class Solution {
     public String reverseWords(String s) {
+        s = s.trim();
         StringBuilder ans = new StringBuilder();
         int i = s.length() -1;
 
         // Traverse from last to first  
         while(i>=0){
             // Check for trailing spaces
-            while(i>= 0 && s.charAt(i) == ' '){
-                i--;
-            }
+            // while(i>= 0 && s.charAt(i) == ' '){
+            //     i--;
+            // }
             // Now if checking if 'i' has become less than 0
             if(i<0) break;
 
