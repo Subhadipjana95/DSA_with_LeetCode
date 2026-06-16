@@ -2,16 +2,18 @@ class Solution {
     public String processStr(String s) {
         StringBuilder result = new StringBuilder();
         for(char c: s.toCharArray()){
-            if(result.length() > 0 && c == '*'){
-                result.deleteCharAt(result.length() -1);
+            if( c == '*'){
+                if(result.length() > 0){
+                    result.deleteCharAt(result.length() -1);
+                }
             }
-            if(c == '#'){
+            else if(c == '#'){
                 result.append(result);
             }
-            if(c == '%'){
+            else if(c == '%'){
                 result = result.reverse();
             }
-            if(c != '*' && c != '#' && c != '%'){
+            else{
                 result.append(c);
             }
         }
