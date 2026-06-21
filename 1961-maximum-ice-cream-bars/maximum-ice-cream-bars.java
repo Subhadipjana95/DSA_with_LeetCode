@@ -8,17 +8,6 @@ class Solution {
         }
 
         int count = 0;
-        // int spend = 0;
-        // for (int i = 0; i < freq.length; i++) {
-        //     for (int j = freq[i]; j >= 0; j--) {
-        //         long curr = (long)i * j;
-        //         if (spend + curr <= coins) {
-        //             count += j;
-        //             spend += curr;
-        //             break;
-        //         }
-        //     }
-        // }
 
         // Better Approach
         for (int cost = 1; cost <= maxx; cost++) {
@@ -33,6 +22,22 @@ class Solution {
                 continue; // Can't afford any ice creams
         }
 
+        // ******* 
+        // Another Approach
+
         return count;
     }
 }
+
+// *********
+// int spend = 0;
+// for (int i = 0; i < freq.length; i++) {
+//     for (int j = freq[i]; j >= 0; j--) {
+//         long curr = (long)i * j;
+//         if (spend + curr <= coins) {
+//             count += j;
+//             spend += curr;
+//             break;
+//         }
+//     }
+// }
