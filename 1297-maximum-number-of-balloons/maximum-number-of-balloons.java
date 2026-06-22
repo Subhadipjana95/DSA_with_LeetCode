@@ -12,11 +12,7 @@ class Solution {
             if(c == 'o') o_Count++;
             if(c == 'n') n_Count++;
         }
-        int count1 = Math.min(b_Count, a_Count);
-        int count2 = Math.min(l_Count/2, o_Count/2);
-        int count3 = Math.min(count1, count2);
-        int count = Math.min(count3, n_Count);
-        return count;
-
+        
+        return Math.min(Math.min(Math.min(b_Count, a_Count), Math.min(l_Count/2, o_Count/2)), n_Count);
     }
 }
